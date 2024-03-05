@@ -44,6 +44,7 @@ gradle build
 ```
 javac sandbox.java 
 ```
+This is not necessary since it was originally compiled.
 2. Run the application.
 ```
 java sandbox
