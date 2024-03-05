@@ -27,7 +27,9 @@ git clone https://github.com/SugiSaku8/ScoolToolKit.git
 ```
 
 Move to the project directory.
+```
 cd ScoolToolKit/Csandbox
+```
 
 3. resolve dependencies (if you are using Maven or Gradle for this project)
 ```
@@ -45,6 +47,7 @@ gradle build
 javac sandbox.java 
 ```
 This is not necessary since it was originally compiled.
+
 2. Run the application.
 ```
 java sandbox
