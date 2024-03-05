@@ -1,4 +1,4 @@
-# Java Sandbox Application
+# CsandBox
 
 This project is an application with a sandbox structure created in Java.
 
