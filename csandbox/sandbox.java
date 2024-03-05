@@ -13,7 +13,8 @@ import java.net.URI;
 import java.io.FilePermission;
 import java.io.File;
 
-public class SandboxApplication {
+public class sandbox {
+
     public static void main(String[] args) {
         try {
             // Get Username
@@ -30,7 +31,7 @@ public class SandboxApplication {
         }
     }
 
-    private static void createSevenLevelSandbox(String userName, String sandboxCommand) throws IOException {rfffffffffffffffffffffffffffffffffffff-p^^
+    private static void createSevenLevelSandbox(String userName, String sandboxCommand) throws IOException {
         for (int level = 1; level <= 7; level++) {
             String sandboxDir = "/home/" + userName + "/sandbox_level_" + level;
             String command = "bash -c 'mkdir -p " + sandboxDir + " && cd " + sandboxDir + " && " + sandboxCommand + "'";
@@ -73,7 +74,6 @@ public class SandboxApplication {
             e.printStackTrace();
         }
     }
-}
 
     private static String encryptSHA256(String originalString) throws NoSuchAlgorithmException {
         MessageDigest digest = MessageDigest.getInstance("SHA-256");
